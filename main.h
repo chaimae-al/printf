@@ -104,7 +104,7 @@ int write_num(int ind, char bff[], int flags, int width, int precision,
 int write_pointer(char buffer[], int ind, int length,
 	int width, int flags, char padd, char extra_c, int padd_start);
 
-int write_unsigned(int is_negative, int ind,
+int write_unsgnd(int is_negative, int ind,
 char buffer[], int flags, int width, int precision, int size);
 
 
@@ -115,6 +115,6 @@ int hexa_code_append(char, char[], int);
 int is_digit(char);
 
 long int convert_size_number(long int num, int size);
-long int convert_size_unsigned(unsigned long int num, int size);
+long int convert_size_unsgnd(unsigned long int num, int size);
 
 #endif /*_PRINTF_H*/
