@@ -27,7 +27,7 @@ typedef struct Formt
 {
 	char formt;
 	int (*func)(va_list, char[], int, int, int, int);
-};
+} Formt;
 
 /**
  * typedef struct Formt frmt - format structure declaration.
