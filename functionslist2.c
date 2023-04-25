@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_unsigned - a function printing an unsigned number
+ * print_unsgnd - a function printing an unsigned number
  * @types: Argument's list
  * @buffer: Buffer array to handle print
  * @flags: gets active flags
