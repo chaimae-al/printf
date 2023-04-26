@@ -20,7 +20,7 @@ int handle_print(const char *formt, int *ind, va_list list, char buffer[],
 	frmt formt_types[] = {
 		{'c', print_char}, {'s', print_string}, {'%', print_percentage},
 		{'i', print_int}, {'d', print_int}, {'b', print_binary},
-		{'u', print_unsigned}, {'o', print_octal}, {'x', print_hexadecimal},
+		{'u', print_unsgnd}, {'o', print_octal}, {'x', print_hexadecimal},
 		{'X', print_HEXA}, {'p', print_pointer}, {'S', print_un_printable},
 		{'r', print_reverse}, {'R', print_rot13str}, {'\0', NULL}
 	};
