@@ -1,6 +1,6 @@
 #include "main.h"
 
-
+/**
  * handle_write_char - function printing a string
  * @c: char types.
  * @buffer: Buffer array to handle print
@@ -228,7 +228,7 @@ int write_pointer(char buffer[], int ind, int length,
 				buffer[--ind] = extra_c;
 			return (write(1, &buffer[3], i - 3) + write(1, &buffer[ind], length));
 		}
-		else if (!(flags & F_MINUS) && padd == '0')
+		else if (!(flags & MINUS_FLAG) && padd == '0')
 		{
 			if (extra_c)
 				buffer[--padd_start] = extra_c;
