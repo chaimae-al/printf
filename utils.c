@@ -68,13 +68,13 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsigned -  a function that converts
+ * convert_size_unsgnd -  a function that converts
  * a number to the specified size
  * @num: Number to be converted
  * @size: Number indicating the type to be casted
  * Return: the value of the  converted number
  */
-long int convert_size_unsigned(unsigned long int num, int size)
+long int convert_size_unsgnd(unsigned long int num, int size)
 {
 	if (size == LONG_S)
 		return (num);
